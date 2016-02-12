@@ -51,12 +51,13 @@ been able to figure out):
 
 Overview of Data structures used:
 
-    standard deck 		 singly linked list
-    hands of players  		 array of singly linked lists
-    tricks  			 standard array of cards
-    tricks won by players  	 singly linked list
+    standard deck                singly linked list
+    hands of players             array of singly linked lists
+    tricks                       standard array of cards
+    tricks won by players        singly linked list
 
 Overview of included files:
+
     heartmain.cpp: 
        - creates an instance of the HeartsGame class and runs it
 
@@ -67,6 +68,7 @@ Overview of included files:
     List_linked_list class (List_linked_list.h, List_linked_list.cpp):
 	- Creates a singly linked list of cards that can be read and manipulated
 	  through the various public functions
+	- INTERFACE designed by instructor
 
     Hand class (hand.h, hand.cpp):
 	- Uses the List_linked_list class to make a hand of cards with the same manipulative
@@ -77,13 +79,7 @@ Overview of included files:
        - Creates four players, and runs the main loop
 
     Hearthand Class (Hearthand.h, Hearthand.cpp): 
-       - Uses the List_linked_list class and runs the necessary operations for 
-	       a hand playing hearts
+       - Uses the List_linked_list class and runs the necessary operations for a hand playing hearts
 
-    List_linked_list Class (List_linked_list.h, List_linked_list.cpp): 
-       - Detailed above, creates a data structure that contains playing cards.
-
-    Card class (card.h, card.cpp): 
-       - Detailed above, creates a standard playing card
 
 Compiled using the included Makefile
