@@ -70,16 +70,11 @@ Overview of included files:
 	  through the various public functions
 	- INTERFACE designed by instructor
 
-    Hand class (hand.h, hand.cpp):
-	- Uses the List_linked_list class to make a hand of cards with the same manipulative
-	  properties of the List_linked_list class
-	- Abstracts the actual data structure used
-
     HeartsGame Class (HeartsGame.h, HeartsGame.cpp): 
        - Creates four players, and runs the main loop
 
     Hearthand Class (Hearthand.h, Hearthand.cpp): 
        - Uses the List_linked_list class and runs the necessary operations for a hand playing hearts
-
+       - Abstracts actual data structure used
 
 Compiled using the included Makefile
