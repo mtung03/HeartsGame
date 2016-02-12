@@ -86,7 +86,8 @@ bool Hearthand::find_two()
     Card two_clubs('2','C');
     return hand->has_card(two_clubs);
 }
- 
+
+// helper function for sorting the hand
 bool lower_card(Card, Card);
  
 void Hearthand::sort_hand()
@@ -103,6 +104,7 @@ void Hearthand::sort_hand()
     }
 }
  
+// returns whether or not the first card is "lower" 
 bool lower_card( Card one, Card two )
 {
     if( one.get_suit() == two.get_suit() ) {
